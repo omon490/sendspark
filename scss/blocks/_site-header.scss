@@ -1,0 +1,38 @@
+
+.site-header__top {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: $blue;
+}
+
+.site-header__top-text {
+  font-size: 16px;
+  line-height: 32px;
+  color: #FCF8F2;
+  letter-spacing: 0.5px;
+}
+
+.site-header__bottom {
+  padding-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.site-header--open .site-nav {
+  display: flex;
+}
+
+.site-header--open .button__toggler {
+  padding: 20px;
+  background-image: url("../img/close-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@include breakpoint-down (415) {
+  .site-header__top {
+    display: none;
+  }
+}
