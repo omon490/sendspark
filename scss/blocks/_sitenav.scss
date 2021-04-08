@@ -50,11 +50,15 @@
     left: 0;
     overflow: auto;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.801);
   }
 
   .site-nav__list {
     flex-direction: column;
+  }
+
+  .site-header--open .site-nav__link {
+    color: $white;
   }
 
   .site-nav__item {

@@ -10,8 +10,28 @@
   background-color: transparent;
 }
 
+.button__message {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: $blue;
+  border: none;
+  cursor: pointer;
+}
+
 @include breakpoint-down (670) {
   .button__toggler {
     display: block;
+  }
+}
+
+@include breakpoint-down (625) {
+  .button__message {
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
   }
 }
