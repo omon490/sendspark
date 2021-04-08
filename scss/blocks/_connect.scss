@@ -1,0 +1,96 @@
+.connect {
+  margin-top: 60px;
+}
+
+.connect__heading {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 441px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.connect__text {
+  margin: 0;
+  margin-bottom: 70px;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: $user-text-color;
+}
+
+.connect__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.connect__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.connect__item {
+
+}
+
+.connect__item-header {
+}
+
+.connect__item-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.connect__item-header-title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.connect__item-header-toggler {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  background-image: url("/img/toggler.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(360deg);
+}
+
+.connect--open .connect__item-header-toggler::after{
+  transform: rotate(90deg);
+}
+
+.connect__item-collapse {
+
+}
+
+.connect__item-answer {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 32px;
+}
+
+.connect__img {
+  display: block;
+}

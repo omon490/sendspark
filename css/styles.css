@@ -960,4 +960,233 @@ img {
     height: 208px;
   }
 }
+
+.member {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  padding: 32px;
+  background-color: #100B2B;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.member__box {
+  max-width: 615px;
+  width: 100%;
+}
+
+.member__heading {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #FEF5E4;
+}
+
+.member__job {
+  margin: 0;
+  margin-bottom: 18px;
+  font-size: 17px;
+  line-height: 32px;
+  color: #655B6E;
+}
+
+.member__box-img {
+  display: block;
+}
+
+.member__img {
+  display: block;
+  width: 441px;
+  height: 309px;
+}
+
+@media only screen and (max-width: 825px) {
+  .member__img {
+    display: block;
+    width: 341px;
+    height: 209px;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .member__heading {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .member__job {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .member {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .member__img {
+    width: 241px;
+    height: 109px;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .member {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .member__img {
+    width: 341px;
+    height: 209px;
+  }
+  .member__heading {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .member__job {
+    text-align: center;
+  }
+  .member__box-img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .member__img {
+    width: 241px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .member__heading {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+.connect {
+  margin-top: 60px;
+}
+
+.connect__heading {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 441px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.connect__text {
+  margin: 0;
+  margin-bottom: 70px;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #655B6E;
+}
+
+.connect__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.connect__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.connect__item-header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.connect__item-header-title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.connect__item-header-toggler {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  background-image: url("/img/toggler.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.connect--open .connect__item-header-toggler::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.connect__item-answer {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 32px;
+}
+
+.connect__img {
+  display: block;
+}
 /*# sourceMappingURL=styles.css.map */
