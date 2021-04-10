@@ -93,4 +93,19 @@
 
 .connect__img {
   display: block;
+  width: 544px;
+  height: 408px;
+}
+
+@include breakpoint-down (955) {
+  .connect__img {
+    width: 444px;
+    height: 308px;
+  }
+}
+
+@include breakpoint-down (670) {
+  .connect__wrapper {
+    flex-direction: column;
+  }
 }
