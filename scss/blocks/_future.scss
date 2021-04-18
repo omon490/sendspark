@@ -1,0 +1,48 @@
+
+.future {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: url("../../img/future-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 44px 342px 65px 343px;
+  background-color: $section-color;
+  border-radius: 16px;
+}
+
+.future__heading {
+  margin: 0;
+  margin-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 44px;
+  text-align: center;
+  color: #FEF5E4;
+}
+
+.future__link-wrapper {
+  display: flex;
+}
+
+.future__link {
+  padding: 20px 30px;
+  background-color: $blue;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  color: #FEF5E4;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.future__text {
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 32px;
+  color: $user-text-color;
+}

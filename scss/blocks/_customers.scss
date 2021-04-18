@@ -66,5 +66,6 @@
 @include breakpoint-down (500) {
   .customers__wrapper {
     flex-direction: column;
+    justify-content: center;
   }
 }
